@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>client side validations</title>
+    </head>
+    <body>
+        <form >
+            <div>
+                <label>name:</label>
+                <input type="text" required tabindex="1"/><br><br>
+            </div>
+            <div>
+                <label>password:</label>
+                <input type="password" required tabindex="4"/><br><br>
+            </div>
+            <button>submit</button><hr>
+            <div>
+                <label>username</label> 
+                <input type="email" minlength="4" maxlength="30" required tabindex="2"/><br><br>
+            </div>
+            <div>
+                <label>Salary</label> 
+                <input type="number"  required tabindex="5"/><br><br>
+            </div>
+            <div>
+                <label>Mobile number</label> 
+                <input type="number" placeholder="please enter 10 digit mobile number" required tabindex="3"/><br><br>
+            </div>
+            <div>
+                <label>country</label> 
+                <input type="text"  value="India" disabled/><br><br>
+            </div>
+            <div>
+                <label>Gender</label> 
+                <input type="radio" name="xyz"/>Male
+                <input type="radio" name="xyz"/>Female <br><br>
+
+            </div>
+            <div>
+                <label>Preffered Locations</label> 
+                <input type="checkbox" />India
+                <input type="checkbox" />USA
+                <input type="checkbox" />UK <br><br>
+            </div>
+            
+            <button>submit</button><hr>
+
+        </form>
+    </body>
+</html>
